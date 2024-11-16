@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Note from "./components/Note";
 import CreateArea from "./components/CreateArea";
 
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 import "./App.css"
 
@@ -26,8 +26,9 @@ function App() {
   }
 
   return (
-    <div>
-      <Header />
+    <>
+     
+            <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((noteItem, index) => {
         return (
@@ -41,7 +42,7 @@ function App() {
         );
       })}
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -8,12 +8,13 @@ html {
 }
 body {
   background:teal;
-  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");  padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); 
+  
+
 }
 
 header {
   background-color: #001F3F;
-  margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
